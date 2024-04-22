@@ -14,7 +14,7 @@ while left<=right:
     if nums[mid] == target:
         found = True
         break
-    elif mid > target :
+    elif mid[nums] > target :
         right = mid -1
     else:
         left = mid +1
